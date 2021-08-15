@@ -1,0 +1,2 @@
+One of the advantages here is that we don't have to change the ConcreteComponent (SimpleSandwich), but instead, add decorators which adds functionalities to the same method.
+One of the disadvantages is that we end up having many classes with few content, and also, is complex to use for the client (the ones who are going to implement or further use the classes)

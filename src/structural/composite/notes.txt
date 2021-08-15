@@ -1,0 +1,2 @@
+Considering the UML class diagram from the module, out MenuComponent will obviously represent the Component, the Menu will represent an composite and the MenuItem will represent a leaf.
+One of the problems here is that it doesn't provide compile errors in case of wrong implementation, rather you have to treat cases at runtime.

@@ -1,0 +1,1 @@
+Note: Thus bridge patterns adds more complexity, it comes with the advantage of providing more flexibility.
