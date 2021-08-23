@@ -9,9 +9,10 @@ public class DbSingletonEnh {
 
     private DbSingletonEnh(){}
 
+
     public static DbSingletonEnh getInstance(){
         if(instance == null){
-            return new DbSingletonEnh();
+            instance = new DbSingletonEnh();
         }
         return instance;
     }
