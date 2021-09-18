@@ -9,6 +9,6 @@ public class TwitterServiceStub implements TwitterService{
 
     @Override
     public void postToTimeline(String screenName, String message) {
-
+        System.out.println("Posted to timeline, message: "+message);
     }
 }

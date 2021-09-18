@@ -22,6 +22,6 @@ public class InventorySystem {
     }
 
     String report() {
-        return "\nTotal Items objects mode: " + catalog.totalItemsMade();
+        return "\nTotal Items objects made: " + catalog.totalItemsMade();
     }
 }

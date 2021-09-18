@@ -5,5 +5,6 @@ public class TwitterDemo {
         TwitterService service = (TwitterService) SecurityProxy.newInstance(new TwitterServiceStub());
 
         System.out.println(service.getTimeline("Something"));
+        service.postToTimeline("Screen","Message");
     }
 }

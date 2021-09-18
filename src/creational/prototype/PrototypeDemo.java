@@ -10,6 +10,7 @@ public class PrototypeDemo {
         System.out.println(movie.getRuntime());
         System.out.println(movie.getTitle());
         System.out.println(movie.getUrl());
+        System.out.println(movie.getPrice());
 
         Movie anotherMovie = (Movie) registry.createItem("Movie");
         anotherMovie.setTitle("The transporter");
@@ -18,6 +19,7 @@ public class PrototypeDemo {
         System.out.println(anotherMovie.getRuntime());
         System.out.println(anotherMovie.getTitle());
         System.out.println(anotherMovie.getUrl());
+        System.out.println(anotherMovie.getPrice());
     }
 
 }
