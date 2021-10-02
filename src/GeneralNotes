@@ -1,0 +1,10 @@
+Framework Designer/Creator -> The one who create the framework, using design patterns
+Client -> The one who uses the framework
+
+The "Demo" part/class of Design Patterns represent the way client uses the classes. The rest of the classes consists of the structure made by the framework creator.
+
+In some patterns, there are already some classes implemented by the framework creator. So, in addition, the framework creator realise some sort of problems,
+and come up with some further implementation that define that pattern (those patterns usually are patterns that don't come up at the begging of the implementation of that framework,
+but more likely as a refactoring).
+
+In other patterns, the full implementation is started from the beggining.

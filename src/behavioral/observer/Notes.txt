@@ -1,0 +1,2 @@
+-> Often named pub/sub (it is pretty similar)
+-> Uses pub/sub or broadcast communication

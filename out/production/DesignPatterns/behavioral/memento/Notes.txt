@@ -1,0 +1,2 @@
+Provides rollback functionality to application
+Used to restore an object to a previous state

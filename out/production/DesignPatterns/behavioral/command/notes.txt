@@ -1,0 +1,7 @@
+
+There is a nice analogy between this package and Threads.
+
+Command <-> Runnable
+OnCommand <-> ClassImplementingRunnable
+Switch <-> Thread
+Light <->
