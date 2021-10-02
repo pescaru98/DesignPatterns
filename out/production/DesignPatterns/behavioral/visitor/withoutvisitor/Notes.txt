@@ -1,0 +1,5 @@
+-> Problem here is that when we had to implement the calculateShipping method in PartsOrder class, then we had to create a method in the "AtvPart" interface too,
+so we can calculate shipping for each part. Then, we realized that creating a method in "AtvPart" will break the code, as we needed to add this implementations
+to "Wheel", "Fender" and "Oil" classes.
+-> The initial state of the program was without having the "calculateShipping()" method existent.
+-> !!!The initial state is found in the package "initial"

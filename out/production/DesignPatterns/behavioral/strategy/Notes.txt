@@ -1,0 +1,3 @@
+-> Almost identical with State pattern
+-> It's used when you want to enable strategy of algorithm to be selected at runtime
+-> Pitfall: Here, the client has to be aware of the strategies, regarding State pattern, where states were changed via a method (and wasn't needed to know the states)

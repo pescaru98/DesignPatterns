@@ -1,2 +1,3 @@
 -> The states doesn't know about each other, they are controlled by the state machine
 -> Seems like this pattern is useful when you have to add new states (but also it's useful to eliminate the if/else's)
+-> Almost identical to Strategy pattern

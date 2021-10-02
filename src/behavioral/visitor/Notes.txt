@@ -1,0 +1,4 @@
+-> Good way to separate an algorithm from an object structure (maybe to add new future)
+-> Visitor class contains changes and specializations, rather than changing the original class
+-> It's kind of pattern we must design around from the begging (and not to refactor to it; "it's hard to retrofit after the fact")
+-> It's used when we expect changes in our application, but we don't necessarily know what they might be upfront
